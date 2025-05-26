@@ -5,9 +5,7 @@ export default function UseLayoutEffect() {
 
     useLayoutEffect(() => {
         document.body.style.backgroundColor = color;
-        document.body.style.color = "white";
-
-      
+        document.body.style.color = "white";      
     }, [color])
 
   return (

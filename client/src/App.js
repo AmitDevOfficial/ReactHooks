@@ -1,5 +1,6 @@
 import React from 'react'
-import UseRef from './components/UseRef'
+// import UseRef from './components/UseRef'
+import UseRefSimple from './components/UseRefSimple'
 // import Parent from './components/useCallbackTwo/Parent'
 // import UseState from './components/UseState'
 // import Global from './components/content/Global'
@@ -33,8 +34,8 @@ export default function App() {
       {/* <center><UseMemoThree/></center> */}
       {/* <center><Parent/></center> */}
       {/* <center> <Parent/> </center> */}
-      <UseRef/>
-     
+      {/* <UseRef/> */}
+      <center><UseRefSimple /></center>
     </>
   )
 }
